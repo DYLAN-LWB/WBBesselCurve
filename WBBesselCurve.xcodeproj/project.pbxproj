@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B80E8D031B393CD100B10E4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B80E8D021B393CD100B10E4B /* main.m */; };
+		B80E8D061B393CD100B10E4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B80E8D051B393CD100B10E4B /* AppDelegate.m */; };
+		B80E8D091B393CD100B10E4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B80E8D081B393CD100B10E4B /* ViewController.m */; };
+		B80E8D0E1B393CD100B10E4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B80E8D0D1B393CD100B10E4B /* Images.xcassets */; };
+		B80E8D111B393CD100B10E4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B80E8D0F1B393CD100B10E4B /* LaunchScreen.xib */; };
+		B80E8D1D1B393CD100B10E4B /* WBBesselCurveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B80E8D1C1B393CD100B10E4B /* WBBesselCurveTests.m */; };
+		B80E8D281B393D7500B10E4B /* UIBezierPath+BesselCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = B80E8D271B393D7500B10E4B /* UIBezierPath+BesselCurve.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B80E8D171B393CD100B10E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B80E8CF51B393CD100B10E4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B80E8CFC1B393CD100B10E4B;
+			remoteInfo = WBBesselCurve;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B80E8CFD1B393CD100B10E4B /* WBBesselCurve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBBesselCurve.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80E8D011B393CD100B10E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B80E8D021B393CD100B10E4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B80E8D041B393CD100B10E4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B80E8D051B393CD100B10E4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B80E8D071B393CD100B10E4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B80E8D081B393CD100B10E4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B80E8D0D1B393CD100B10E4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B80E8D101B393CD100B10E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B80E8D161B393CD100B10E4B /* WBBesselCurveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBBesselCurveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80E8D1B1B393CD100B10E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B80E8D1C1B393CD100B10E4B /* WBBesselCurveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBBesselCurveTests.m; sourceTree = "<group>"; };
+		B80E8D261B393D7500B10E4B /* UIBezierPath+BesselCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+BesselCurve.h"; sourceTree = "<group>"; };
+		B80E8D271B393D7500B10E4B /* UIBezierPath+BesselCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+BesselCurve.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B80E8CFA1B393CD100B10E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80E8D131B393CD100B10E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B80E8CF41B393CD100B10E4B = {
+			isa = PBXGroup;
+			children = (
+				B80E8CFF1B393CD100B10E4B /* WBBesselCurve */,
+				B80E8D191B393CD100B10E4B /* WBBesselCurveTests */,
+				B80E8CFE1B393CD100B10E4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B80E8CFE1B393CD100B10E4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B80E8CFD1B393CD100B10E4B /* WBBesselCurve.app */,
+				B80E8D161B393CD100B10E4B /* WBBesselCurveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B80E8CFF1B393CD100B10E4B /* WBBesselCurve */ = {
+			isa = PBXGroup;
+			children = (
+				B80E8D041B393CD100B10E4B /* AppDelegate.h */,
+				B80E8D051B393CD100B10E4B /* AppDelegate.m */,
+				B80E8D071B393CD100B10E4B /* ViewController.h */,
+				B80E8D081B393CD100B10E4B /* ViewController.m */,
+				B80E8D261B393D7500B10E4B /* UIBezierPath+BesselCurve.h */,
+				B80E8D271B393D7500B10E4B /* UIBezierPath+BesselCurve.m */,
+				B80E8D0D1B393CD100B10E4B /* Images.xcassets */,
+				B80E8D0F1B393CD100B10E4B /* LaunchScreen.xib */,
+				B80E8D001B393CD100B10E4B /* Supporting Files */,
+			);
+			path = WBBesselCurve;
+			sourceTree = "<group>";
+		};
+		B80E8D001B393CD100B10E4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B80E8D011B393CD100B10E4B /* Info.plist */,
+				B80E8D021B393CD100B10E4B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B80E8D191B393CD100B10E4B /* WBBesselCurveTests */ = {
+			isa = PBXGroup;
+			children = (
+				B80E8D1C1B393CD100B10E4B /* WBBesselCurveTests.m */,
+				B80E8D1A1B393CD100B10E4B /* Supporting Files */,
+			);
+			path = WBBesselCurveTests;
+			sourceTree = "<group>";
+		};
+		B80E8D1A1B393CD100B10E4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B80E8D1B1B393CD100B10E4B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B80E8CFC1B393CD100B10E4B /* WBBesselCurve */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B80E8D201B393CD100B10E4B /* Build configuration list for PBXNativeTarget "WBBesselCurve" */;
+			buildPhases = (
+				B80E8CF91B393CD100B10E4B /* Sources */,
+				B80E8CFA1B393CD100B10E4B /* Frameworks */,
+				B80E8CFB1B393CD100B10E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WBBesselCurve;
+			productName = WBBesselCurve;
+			productReference = B80E8CFD1B393CD100B10E4B /* WBBesselCurve.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B80E8D151B393CD100B10E4B /* WBBesselCurveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B80E8D231B393CD100B10E4B /* Build configuration list for PBXNativeTarget "WBBesselCurveTests" */;
+			buildPhases = (
+				B80E8D121B393CD100B10E4B /* Sources */,
+				B80E8D131B393CD100B10E4B /* Frameworks */,
+				B80E8D141B393CD100B10E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B80E8D181B393CD100B10E4B /* PBXTargetDependency */,
+			);
+			name = WBBesselCurveTests;
+			productName = WBBesselCurveTests;
+			productReference = B80E8D161B393CD100B10E4B /* WBBesselCurveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B80E8CF51B393CD100B10E4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "李伟宾";
+				TargetAttributes = {
+					B80E8CFC1B393CD100B10E4B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					B80E8D151B393CD100B10E4B = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = B80E8CFC1B393CD100B10E4B;
+					};
+				};
+			};
+			buildConfigurationList = B80E8CF81B393CD100B10E4B /* Build configuration list for PBXProject "WBBesselCurve" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B80E8CF41B393CD100B10E4B;
+			productRefGroup = B80E8CFE1B393CD100B10E4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B80E8CFC1B393CD100B10E4B /* WBBesselCurve */,
+				B80E8D151B393CD100B10E4B /* WBBesselCurveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B80E8CFB1B393CD100B10E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80E8D111B393CD100B10E4B /* LaunchScreen.xib in Resources */,
+				B80E8D0E1B393CD100B10E4B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80E8D141B393CD100B10E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B80E8CF91B393CD100B10E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80E8D091B393CD100B10E4B /* ViewController.m in Sources */,
+				B80E8D061B393CD100B10E4B /* AppDelegate.m in Sources */,
+				B80E8D031B393CD100B10E4B /* main.m in Sources */,
+				B80E8D281B393D7500B10E4B /* UIBezierPath+BesselCurve.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80E8D121B393CD100B10E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80E8D1D1B393CD100B10E4B /* WBBesselCurveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B80E8D181B393CD100B10E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B80E8CFC1B393CD100B10E4B /* WBBesselCurve */;
+			targetProxy = B80E8D171B393CD100B10E4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B80E8D0F1B393CD100B10E4B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B80E8D101B393CD100B10E4B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B80E8D1E1B393CD100B10E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B80E8D1F1B393CD100B10E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B80E8D211B393CD100B10E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WBBesselCurve/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B80E8D221B393CD100B10E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WBBesselCurve/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B80E8D241B393CD100B10E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WBBesselCurveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WBBesselCurve.app/WBBesselCurve";
+			};
+			name = Debug;
+		};
+		B80E8D251B393CD100B10E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WBBesselCurveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WBBesselCurve.app/WBBesselCurve";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B80E8CF81B393CD100B10E4B /* Build configuration list for PBXProject "WBBesselCurve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80E8D1E1B393CD100B10E4B /* Debug */,
+				B80E8D1F1B393CD100B10E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B80E8D201B393CD100B10E4B /* Build configuration list for PBXNativeTarget "WBBesselCurve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80E8D211B393CD100B10E4B /* Debug */,
+				B80E8D221B393CD100B10E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B80E8D231B393CD100B10E4B /* Build configuration list for PBXNativeTarget "WBBesselCurveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80E8D241B393CD100B10E4B /* Debug */,
+				B80E8D251B393CD100B10E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B80E8CF51B393CD100B10E4B /* Project object */;
+}
